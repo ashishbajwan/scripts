@@ -35,13 +35,12 @@ menu.add_cascade(label='File', menu=item2)
 item2.add_command(label='New')
 root.config(menu=menu)
 
-# adding Entry Field
+# adding Entry Fields
 txt = Entry(root, width=10)
 txt.grid(column =1, row =0)
 
 txt = Entry(root, width=10)
 txt.grid(column =3, row =0)
-
 
 text_widget = tk.Text(root, wrap=tk.WORD, height=1, width=35)
 text_widget.pack(padx=20, pady=20)
